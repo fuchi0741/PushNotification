@@ -15,6 +15,7 @@
 		C52E75ED262F04C10088B9B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52E75EB262F04C10088B9B0 /* LaunchScreen.storyboard */; };
 		C52E75F8262F04C10088B9B0 /* PushNotificationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E75F7262F04C10088B9B0 /* PushNotificationSampleTests.swift */; };
 		C52E7603262F04C10088B9B0 /* PushNotificationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E7602262F04C10088B9B0 /* PushNotificationSampleUITests.swift */; };
+		C52E7614262F05C10088B9B0 /* ShirtsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E7613262F05C10088B9B0 /* ShirtsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C52E75FE262F04C10088B9B0 /* PushNotificationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52E7602262F04C10088B9B0 /* PushNotificationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSampleUITests.swift; sourceTree = "<group>"; };
 		C52E7604262F04C10088B9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52E7613262F05C10088B9B0 /* ShirtsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShirtsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C52E75E9262F04C10088B9B0 /* Assets.xcassets */,
 				C52E75EB262F04C10088B9B0 /* LaunchScreen.storyboard */,
 				C52E75EE262F04C10088B9B0 /* Info.plist */,
+				C52E7613262F05C10088B9B0 /* ShirtsListViewController.swift */,
 			);
 			path = PushNotificationSample;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52E75E5262F04C10088B9B0 /* ViewController.swift in Sources */,
+				C52E7614262F05C10088B9B0 /* ShirtsListViewController.swift in Sources */,
 				C52E75E1262F04C10088B9B0 /* AppDelegate.swift in Sources */,
 				C52E75E3262F04C10088B9B0 /* SceneDelegate.swift in Sources */,
 			);
