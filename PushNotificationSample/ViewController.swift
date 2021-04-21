@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func pushWithFirebase(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main",bundle: nil)  //手順1で説明済
-        guard let viewController = storyboard.instantiateInitialViewController() as? ShirtsListViewController else { return }  //インスタンス化したものを定数viewControllerとして定義
+        guard let viewController = storyboard.instantiateInitialViewController() as? ProductListViewController else { return }  //インスタンス化したものを定数viewControllerとして定義
         navigationController?.pushViewController(viewController, animated: true)
     }
 

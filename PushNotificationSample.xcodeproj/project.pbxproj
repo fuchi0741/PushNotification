@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C502DF08262FBC6F00BA8F5E /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C502DF07262FBC6F00BA8F5E /* AlertService.swift */; };
+		C502DF11262FC0CA00BA8F5E /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C502DF0F262FC0CA00BA8F5E /* ProductCollectionViewCell.swift */; };
+		C502DF12262FC0CA00BA8F5E /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C502DF10262FC0CA00BA8F5E /* ProductCollectionViewCell.xib */; };
+		C502DF1A262FC6D100BA8F5E /* UNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C502DF19262FC6D100BA8F5E /* UNService.swift */; };
 		C52E75E1262F04C10088B9B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E75E0262F04C10088B9B0 /* AppDelegate.swift */; };
 		C52E75E3262F04C10088B9B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E75E2262F04C10088B9B0 /* SceneDelegate.swift */; };
 		C52E75E5262F04C10088B9B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E75E4262F04C10088B9B0 /* ViewController.swift */; };
@@ -15,7 +19,8 @@
 		C52E75ED262F04C10088B9B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52E75EB262F04C10088B9B0 /* LaunchScreen.storyboard */; };
 		C52E75F8262F04C10088B9B0 /* PushNotificationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E75F7262F04C10088B9B0 /* PushNotificationSampleTests.swift */; };
 		C52E7603262F04C10088B9B0 /* PushNotificationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E7602262F04C10088B9B0 /* PushNotificationSampleUITests.swift */; };
-		C52E7614262F05C10088B9B0 /* ShirtsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E7613262F05C10088B9B0 /* ShirtsListViewController.swift */; };
+		C52E7614262F05C10088B9B0 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E7613262F05C10088B9B0 /* ProductListViewController.swift */; };
+		C52E7621262F0ABB0088B9B0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E7620262F0ABB0088B9B0 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C502DF07262FBC6F00BA8F5E /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		C502DF0F262FC0CA00BA8F5E /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		C502DF10262FC0CA00BA8F5E /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		C502DF19262FC6D100BA8F5E /* UNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNService.swift; sourceTree = "<group>"; };
+		C502DF1F262FCE4800BA8F5E /* PushNotificationSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationSample.entitlements; sourceTree = "<group>"; };
 		C52E75DD262F04C10088B9B0 /* PushNotificationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52E75E0262F04C10088B9B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C52E75E2262F04C10088B9B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +60,8 @@
 		C52E75FE262F04C10088B9B0 /* PushNotificationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52E7602262F04C10088B9B0 /* PushNotificationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSampleUITests.swift; sourceTree = "<group>"; };
 		C52E7604262F04C10088B9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C52E7613262F05C10088B9B0 /* ShirtsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShirtsListViewController.swift; sourceTree = "<group>"; };
+		C52E7613262F05C10088B9B0 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		C52E7620262F0ABB0088B9B0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C502DF06262FBC5C00BA8F5E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C502DF07262FBC6F00BA8F5E /* AlertService.swift */,
+				C502DF19262FC6D100BA8F5E /* UNService.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		C52E75D4262F04C10088B9B0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +121,8 @@
 		C52E75DF262F04C10088B9B0 /* PushNotificationSample */ = {
 			isa = PBXGroup;
 			children = (
+				C502DF1F262FCE4800BA8F5E /* PushNotificationSample.entitlements */,
+				C52E7618262F0A290088B9B0 /* ProductSaleApp */,
 				C52E75E0262F04C10088B9B0 /* AppDelegate.swift */,
 				C52E75E2262F04C10088B9B0 /* SceneDelegate.swift */,
 				C52E75E4262F04C10088B9B0 /* ViewController.swift */,
@@ -108,7 +130,6 @@
 				C52E75E9262F04C10088B9B0 /* Assets.xcassets */,
 				C52E75EB262F04C10088B9B0 /* LaunchScreen.storyboard */,
 				C52E75EE262F04C10088B9B0 /* Info.plist */,
-				C52E7613262F05C10088B9B0 /* ShirtsListViewController.swift */,
 			);
 			path = PushNotificationSample;
 			sourceTree = "<group>";
@@ -129,6 +150,42 @@
 				C52E7604262F04C10088B9B0 /* Info.plist */,
 			);
 			path = PushNotificationSampleUITests;
+			sourceTree = "<group>";
+		};
+		C52E7618262F0A290088B9B0 /* ProductSaleApp */ = {
+			isa = PBXGroup;
+			children = (
+				C502DF06262FBC5C00BA8F5E /* Utility */,
+				C52E7629262F0B140088B9B0 /* View */,
+				C52E7625262F0ABE0088B9B0 /* Model */,
+				C52E761C262F0A6B0088B9B0 /* ViewControllers */,
+			);
+			path = ProductSaleApp;
+			sourceTree = "<group>";
+		};
+		C52E761C262F0A6B0088B9B0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C52E7613262F05C10088B9B0 /* ProductListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C52E7625262F0ABE0088B9B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C52E7620262F0ABB0088B9B0 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C52E7629262F0B140088B9B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C502DF0F262FC0CA00BA8F5E /* ProductCollectionViewCell.swift */,
+				C502DF10262FC0CA00BA8F5E /* ProductCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +293,7 @@
 			files = (
 				C52E75ED262F04C10088B9B0 /* LaunchScreen.storyboard in Resources */,
 				C52E75EA262F04C10088B9B0 /* Assets.xcassets in Resources */,
+				C502DF12262FC0CA00BA8F5E /* ProductCollectionViewCell.xib in Resources */,
 				C52E75E8262F04C10088B9B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +320,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52E75E5262F04C10088B9B0 /* ViewController.swift in Sources */,
-				C52E7614262F05C10088B9B0 /* ShirtsListViewController.swift in Sources */,
+				C52E7614262F05C10088B9B0 /* ProductListViewController.swift in Sources */,
+				C502DF11262FC0CA00BA8F5E /* ProductCollectionViewCell.swift in Sources */,
+				C502DF08262FBC6F00BA8F5E /* AlertService.swift in Sources */,
+				C52E7621262F0ABB0088B9B0 /* Product.swift in Sources */,
 				C52E75E1262F04C10088B9B0 /* AppDelegate.swift in Sources */,
+				C502DF1A262FC6D100BA8F5E /* UNService.swift in Sources */,
 				C52E75E3262F04C10088B9B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationSample/PushNotificationSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 737XJB84YA;
 				INFOPLIST_FILE = PushNotificationSample/Info.plist;
@@ -447,7 +510,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuchi.PushNotificationSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harafuchi.PushNotificationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationSample/PushNotificationSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 737XJB84YA;
 				INFOPLIST_FILE = PushNotificationSample/Info.plist;
@@ -466,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuchi.PushNotificationSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harafuchi.PushNotificationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
